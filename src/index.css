@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: 0 0% 100%;
+  --body-background: 212 45% 89%;
+  --body-text-secondary: 220 15% 55%;
+  --body-text-primary: 218 44% 22%;
+
+  --breakpoint-xs: 375px;
+  --breakpoint-lg: 1440px;
+
+  --font-outfit: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
